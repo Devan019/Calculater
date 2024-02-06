@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+
+.contant{
+    width: 400px;
+    height: 520px;
+    border: 5px solid;
+    position: relative;
+    background: url(hacker.jpg);
+    background-position: top center;
+}
+nav{
+        height: 20px;
+        width: 400px;
+        /* border: 0.5px solid; */
+        position: relative;
+        color: aliceblue;
+}
+.calc{
+    position: relative;
+    left: 30px;
+    top: 0px;
+    font-size: large;
+    font-family: cursive;
+}
+.display{
+    height: 100px;
+    width: 360px;
+    border: 1px solid;
+   position: relative;
+   left: 20px;
+   top: 10px;
+   border-radius: 15px;
+   font-size:30px;
+}
+.nu{
+    height: 370px;
+    width: 360px;
+    border: 1px solid;
+    position: relative;
+    top: 17px;
+    left: 20px;
+   display: grid;
+   grid-template-rows: repeat(6,1fr);
+   grid-template-columns: repeat(4,1fr);
+   cursor: pointer;
+}
+button{
+    font-size: larger;
+    border-radius: 10px;
+}
